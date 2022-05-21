@@ -27,6 +27,14 @@ public class Movement : MonoBehaviour
             Invoke("TouchedFalse", 0.1f);
         }
     }
+    public void KnifeStartingPosition()
+    {
+        transform.position = new Vector3(-0, 1, -1);
+        transform.eulerAngles = new Vector3(0, 180, 0);
+        rb.velocity = Vector3.zero;
+        rb.angularVelocity = Vector3.zero;
+    }
+
     void TouchedFalse()
     {
         touched = false;
