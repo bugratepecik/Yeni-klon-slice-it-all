@@ -3,7 +3,15 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - zemin
+  - "biti\u015F"
+  - 2x
+  - 5x
+  - 10x
+  - 12x
+  - 50x
+  - "\xE7ivi"
   layers:
   - Default
   - TransparentFX
